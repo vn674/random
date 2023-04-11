@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(255, 254, 242);
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(242, 203, 124);
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+input[type=text], input[type=submit] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
